@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --skillovant-light: #9fe7f5;
+  --skillovant-teal: #429ebd;
+  --skillovant-navy: #053f5c;
+  --skillovant-white: #ffffff;
+  --skillovant-text: #173042;
+  --skillovant-muted: #647b88;
+  --skillovant-border: #dcecf1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--skillovant-white);
+  color: var(--skillovant-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  background: var(--skillovant-light);
+  color: var(--skillovant-navy);
+}
