@@ -285,7 +285,7 @@ export default function ContactPage() {
         </p>
 
         <p className="mt-1 text-sm font-semibold text-[#053F5C]">
-          hello@skillovant.com
+          admin@skillovant.com
         </p>
       </div>
     </div>
