@@ -289,73 +289,145 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-
-            {/* Vision Ecosystem */}
-            <div className="relative">
-              <div className="absolute inset-6 rounded-full bg-[#9fe7f5]/30 blur-3xl" />
-
-              <div className="relative rounded-[2rem] border border-[#dcecf1] bg-white p-7 shadow-xl shadow-[#053f5c]/5 sm:p-9">
-                <div className="relative flex min-h-[380px] items-center justify-center">
-                  {/* Connecting Lines */}
-                  <div className="absolute left-1/2 top-[22%] h-[56%] w-px -translate-x-1/2 bg-[#9fe7f5]" />
-                  <div className="absolute left-[22%] top-1/2 h-px w-[56%] -translate-y-1/2 bg-[#9fe7f5]" />
-
-                  {/* Center */}
-                  <div className="relative z-10 flex h-32 w-32 items-center justify-center rounded-full border-8 border-[#9fe7f5]/40 bg-[#053f5c] text-center shadow-xl shadow-[#053f5c]/15">
-                    <div>
-                      <p className="text-lg font-bold text-white">
-                        Skillovant
-                      </p>
-                      <p className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-[#9fe7f5]">
-                        Vision
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Learn */}
-                  <div className="absolute left-1/2 top-0 -translate-x-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
-                    <p className="text-sm font-bold text-[#053f5c]">
-                      Learn
-                    </p>
-                    <p className="mt-1 text-xs text-[#647b88]">
-                      Build foundations
-                    </p>
-                  </div>
-
-                  {/* Build */}
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
-                    <p className="text-sm font-bold text-[#053f5c]">
-                      Build
-                    </p>
-                    <p className="mt-1 text-xs text-[#647b88]">
-                      Create real work
-                    </p>
-                  </div>
-
-                  {/* Prove */}
-                  <div className="absolute left-0 top-1/2 -translate-y-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
-                    <p className="text-sm font-bold text-[#053f5c]">
-                      Prove
-                    </p>
-                    <p className="mt-1 text-xs text-[#647b88]">
-                      Demonstrate skills
-                    </p>
-                  </div>
-
-                  {/* Grow */}
-                  <div className="absolute right-0 top-1/2 -translate-y-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
-                    <p className="text-sm font-bold text-[#053f5c]">
-                      Grow
-                    </p>
-                    <p className="mt-1 text-xs text-[#647b88]">
-                      Create opportunities
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
+            
+            {/* Vision Ecosystem */}
+      <div className="relative">
+  <div className="absolute inset-6 rounded-full bg-[#9fe7f5]/30 blur-3xl" />
 
+  <div className="relative rounded-[2rem] border border-[#dcecf1] bg-white p-5 shadow-xl shadow-[#053f5c]/5 sm:p-7 lg:p-9">
+    
+    {/* =====================================================
+        MOBILE / TABLET VISION ECOSYSTEM
+        ===================================================== */}
+    <div className="relative mx-auto grid max-w-[360px] grid-cols-3 grid-rows-[auto_auto_auto_auto] items-center gap-x-3 gap-y-5 py-4 lg:hidden">
+      
+      {/* Learn */}
+      <div className="col-start-2 row-start-1 flex justify-center">
+        <div className="rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-4 py-3 text-center shadow-sm">
+          <p className="text-sm font-bold text-[#053f5c]">
+            Learn
+          </p>
+          <p className="mt-1 text-xs text-[#647b88]">
+            Build foundations
+          </p>
+        </div>
+      </div>
+
+      {/* Prove */}
+      <div className="col-start-1 row-start-2 flex justify-center">
+        <div className="rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-4 py-3 text-center shadow-sm">
+          <p className="text-sm font-bold text-[#053f5c]">
+            Prove
+          </p>
+          <p className="mt-1 text-xs text-[#647b88]">
+            Demonstrate skills
+          </p>
+        </div>
+      </div>
+
+      {/* Grow */}
+      <div className="col-start-3 row-start-2 flex justify-center">
+        <div className="rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-4 py-3 text-center shadow-sm">
+          <p className="text-sm font-bold text-[#053f5c]">
+            Grow
+          </p>
+          <p className="mt-1 text-xs text-[#647b88]">
+            Create opportunities
+          </p>
+        </div>
+      </div>
+
+      {/* Skillovant */}
+      <div className="col-start-2 row-start-3 flex justify-center py-1">
+        <div className="flex h-28 w-28 items-center justify-center rounded-full border-8 border-[#9fe7f5]/40 bg-[#053f5c] text-center shadow-xl shadow-[#053f5c]/15">
+          <div>
+            <p className="text-base font-bold text-white">
+              Skillovant
+            </p>
+            <p className="mt-1 text-[9px] font-semibold uppercase tracking-wider text-[#9fe7f5]">
+              Vision
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Build */}
+      <div className="col-start-2 row-start-4 flex justify-center">
+        <div className="rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-4 py-3 text-center shadow-sm">
+          <p className="text-sm font-bold text-[#053f5c]">
+            Build
+          </p>
+          <p className="mt-1 text-xs text-[#647b88]">
+            Create real work
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* =====================================================
+        DESKTOP VISION ECOSYSTEM
+        ===================================================== */}
+    <div className="relative hidden min-h-[380px] items-center justify-center lg:flex">
+      
+      {/* Connecting Lines */}
+      <div className="absolute left-1/2 top-[22%] h-[56%] w-px -translate-x-1/2 bg-[#9fe7f5]" />
+      <div className="absolute left-[22%] top-1/2 h-px w-[56%] -translate-y-1/2 bg-[#9fe7f5]" />
+
+      {/* Center */}
+      <div className="relative z-10 flex h-32 w-32 items-center justify-center rounded-full border-8 border-[#9fe7f5]/40 bg-[#053f5c] text-center shadow-xl shadow-[#053f5c]/15">
+        <div>
+          <p className="text-lg font-bold text-white">
+            Skillovant
+          </p>
+          <p className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-[#9fe7f5]">
+            Vision
+          </p>
+        </div>
+      </div>
+
+      {/* Learn */}
+      <div className="absolute left-1/2 top-0 -translate-x-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
+        <p className="text-sm font-bold text-[#053f5c]">
+          Learn
+        </p>
+        <p className="mt-1 text-xs text-[#647b88]">
+          Build foundations
+        </p>
+      </div>
+
+      {/* Build */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
+        <p className="text-sm font-bold text-[#053f5c]">
+          Build
+        </p>
+        <p className="mt-1 text-xs text-[#647b88]">
+          Create real work
+        </p>
+      </div>
+
+      {/* Prove */}
+      <div className="absolute left-0 top-1/2 -translate-y-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
+        <p className="text-sm font-bold text-[#053f5c]">
+          Prove
+        </p>
+        <p className="mt-1 text-xs text-[#647b88]">
+          Demonstrate skills
+        </p>
+      </div>
+
+      {/* Grow */}
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 rounded-2xl border border-[#dcecf1] bg-[#f8fcfd] px-5 py-3 text-center shadow-sm">
+        <p className="text-sm font-bold text-[#053f5c]">
+          Grow
+        </p>
+        <p className="mt-1 text-xs text-[#647b88]">
+          Create opportunities
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
           {/* Vision Pillars */}
           <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {[
