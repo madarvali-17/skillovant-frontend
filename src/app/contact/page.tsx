@@ -185,7 +185,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="mailto:hello@skillovant.com"
+                href="mailto:admin@skillovant.com"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-[#dcecf1] bg-white px-6 py-3.5 text-sm font-bold text-[#053F5C] shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-[#9FE7F5] hover:bg-[#f4fdff]"
               >
                 <Mail size={17} className="text-[#429EBD]" />
