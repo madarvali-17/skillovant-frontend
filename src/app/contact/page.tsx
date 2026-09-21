@@ -291,22 +291,26 @@ export default function ContactPage() {
     </div>
 
     {/* Instagram */}
-    <div className="flex items-center gap-4 rounded-2xl border border-[#dcecf1] bg-[#f8fdff] p-4 transition-all duration-300 hover:border-[#9FE7F5] hover:shadow-sm">
-      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#eafafd]">
-        <InstagramIcon />
-      </div>
+    <a
+  href="https://www.instagram.com/skillovant/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-4 rounded-2xl border border-[#dcecf1] bg-[#f8fdff] p-4 transition-all duration-300 hover:border-[#9FE7F5] hover:shadow-sm"
+>
+  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#eafafd]">
+    <InstagramIcon />
+  </div>
 
-      <div>
-        <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#429EBD]">
-          Instagram
-        </p>
+  <div>
+    <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#429EBD]">
+      Instagram
+    </p>
 
-        <p className="mt-1 text-sm font-semibold text-[#053F5C]">
-          @skillovant
-        </p>
-      </div>
-    </div>
-
+    <p className="mt-1 text-sm font-semibold text-[#053F5C]">
+      @skillovant
+    </p>
+  </div>
+</a>
     {/* LinkedIn */}
     <div className="flex items-center gap-4 rounded-2xl border border-[#dcecf1] bg-[#f8fdff] p-4 transition-all duration-300 hover:border-[#9FE7F5] hover:shadow-sm">
       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#eafafd]">
