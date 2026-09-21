@@ -292,7 +292,7 @@ export default function ContactPage() {
 
     {/* Instagram */}
     <a
-  href="https://www.instagram.com/skillovant/"
+  href="https://www.instagram.com/skillovant_com/"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-4 rounded-2xl border border-[#dcecf1] bg-[#f8fdff] p-4 transition-all duration-300 hover:border-[#9FE7F5] hover:shadow-sm"
@@ -307,7 +307,7 @@ export default function ContactPage() {
     </p>
 
     <p className="mt-1 text-sm font-semibold text-[#053F5C]">
-      @skillovant
+      @skillovant_com
     </p>
   </div>
 </a>
