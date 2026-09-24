@@ -342,11 +342,11 @@ export default function ContactPage() {
 
           <div className="mt-1 space-y-0.5">
             <p className="text-sm font-semibold text-[#053F5C]">
-              +91 XXXXX XXXXX
+              +91 8247552668
             </p>
 
             <p className="text-sm font-semibold text-[#053F5C]">
-              +91 XXXXX XXXXX
+              +91 9182155261
             </p>
           </div>
         </div>
